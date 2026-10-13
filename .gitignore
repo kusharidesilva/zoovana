@@ -9,6 +9,5 @@ test-results/
 *.log
 *.tsbuildinfo
 .sites-checkout/
-site-checkout/
 *.tar.gz
 .DS_Store
