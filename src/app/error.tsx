@@ -1,0 +1,2 @@
+"use client";
+export default function ErrorPage({ reset }: { error: Error & { digest?: string }; reset: () => void }) { return <section className="grid min-h-[75vh] place-items-center bg-[#F7F3E8] px-6 pt-[76px] text-center"><div><p className="eyebrow text-[#B9714D]">A branch blocked the trail</p><h1 className="font-display mt-4 text-6xl text-[#153D2D]">Something went wild.</h1><p className="mt-5 text-[#202A23]/60">Try this part of the experience again.</p><button onClick={reset} className="btn-primary mt-8">Try again</button></div></section>; }

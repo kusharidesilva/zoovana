@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+.env*
+!.env.example
+*.log
+*.tsbuildinfo
+.sites-checkout/
+site-checkout/
+*.tar.gz
+.DS_Store
